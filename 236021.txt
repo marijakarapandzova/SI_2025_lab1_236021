@@ -1,0 +1,198 @@
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git fetch origin
+From https://github.com/marijakarapandzova/SI_2025_lab1_236021
+ * [new branch]      2-find-all-completed-tasks -> origin/2-find-all-completed-tasks
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git checkout 2-find-all-completed-tasks
+branch '2-find-all-completed-tasks' set up to track 'origin/2-find-all-completed-tasks'.
+Switched to a new branch '2-find-all-completed-tasks'
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (2-find-all-completed-tasks)
+$ git branch
+* 2-find-all-completed-tasks
+  master
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (2-find-all-completed-tasks)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git fetch origin
+From https://github.com/marijakarapandzova/SI_2025_lab1_236021
+ * [new branch]      5-filter-tasks-by-category -> origin/5-filter-tasks-by-category
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git checkout 5-filter-tasks-by-category
+branch '5-filter-tasks-by-category' set up to track 'origin/5-filter-tasks-by-category'.
+Switched to a new branch '5-filter-tasks-by-category'
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (5-filter-tasks-by-category)
+$ git fetch origin
+From https://github.com/marijakarapandzova/SI_2025_lab1_236021
+ * [new branch]      7-count-tasks-per-category -> origin/7-count-tasks-per-category
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (5-filter-tasks-by-category)
+$ git checkout 7-count-tasks-per-category
+branch '7-count-tasks-per-category' set up to track 'origin/7-count-tasks-per-category'.
+Switched to a new branch '7-count-tasks-per-category'
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (7-count-tasks-per-category)
+$ git checkout 2-find-all-completed-tasks
+Switched to branch '2-find-all-completed-tasks'
+Your branch is up to date with 'origin/2-find-all-completed-tasks'.
+
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (2-find-all-completed-tasks)
+$ git add .
+warning: in the working copy of 'SI2025Lab1Main.java', LF will be replaced by CRLF the next time Git touches it
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (2-find-all-completed-tasks)
+$ git commit -m "2-find-all-completed-tasks"
+[2-find-all-completed-tasks abe1859] 2-find-all-completed-tasks
+ 5 files changed, 32 insertions(+), 1 deletion(-)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/SI_2025_lab1_236021.iml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (2-find-all-completed-tasks)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.25 KiB | 425.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/marijakarapandzova/SI_2025_lab1_236021.git
+   d6006aa..abe1859  2-find-all-completed-tasks -> 2-find-all-completed-tasks
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (2-find-all-completed-tasks)
+$ git checkout 5-filter-tasks-by-category
+Switched to branch '5-filter-tasks-by-category'
+Your branch is up to date with 'origin/5-filter-tasks-by-category'.
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (5-filter-tasks-by-category)
+$ git add .
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (5-filter-tasks-by-category)
+$ git commit -m "5-filter-tasks-by-category"
+[5-filter-tasks-by-category e1118e8] 5-filter-tasks-by-category
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (5-filter-tasks-by-category)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 449 bytes | 449.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/marijakarapandzova/SI_2025_lab1_236021.git
+   d6006aa..e1118e8  5-filter-tasks-by-category -> 5-filter-tasks-by-category
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (5-filter-tasks-by-category)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git checkout 7-count-tasks-per-category
+Switched to branch '7-count-tasks-per-category'
+Your branch is up to date with 'origin/7-count-tasks-per-category'.
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (7-count-tasks-per-category)
+$ git add .
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (7-count-tasks-per-category)
+$ git commit -m "7-count-tasks-per-category"
+[7-count-tasks-per-category bd50825] 7-count-tasks-per-category
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (7-count-tasks-per-category)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git merge 7-count-tasks-per-category
+Updating d6006aa..bd50825
+Fast-forward
+ SI2025Lab1Main.java | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git push origin master
+To https://github.com/marijakarapandzova/SI_2025_lab1_236021.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.90 KiB | 121.00 KiB/s, done.
+From https://github.com/marijakarapandzova/SI_2025_lab1_236021
+ * branch            master     -> FETCH_HEAD
+   d6006aa..b30f9c2  master     -> origin/master
+Auto-merging SI2025Lab1Main.java
+Merge made by the 'ort' strategy.
+ .idea/.gitignore              | 8 ++++++++
+ .idea/SI_2025_lab1_236021.iml | 9 +++++++++
+ .idea/modules.xml             | 8 ++++++++
+ .idea/vcs.xml                 | 6 ++++++
+ SI2025Lab1Main.java           | 8 +++++---
+ 5 files changed, 36 insertions(+), 3 deletions(-)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/SI_2025_lab1_236021.iml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 803 bytes | 401.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/marijakarapandzova/SI_2025_lab1_236021.git
+   b30f9c2..61abd06  master -> master
+
+User@DESKTOP-N1FJ6DT MINGW64 ~/SI_2025_lab1_236021 (master)
+$ git log --oneline --graph --all
+*   61abd06 (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of https://github.com/marijakarapandzova/SI_2025_lab1_236021
+|\
+| *   b30f9c2 Merge pull request #11 from marijakarapandzova/5-filter-tasks-by-category
+| |\
+| | * e1118e8 (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) 5-filter-tasks-by-category
+| * |   d5210e8 Merge pull request #10 from marijakarapandzova/2-find-all-completed-tasks
+| |\ \
+| | |/
+| |/|
+| | * abe1859 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) 2-find-all-completed-tasks
+| |/
+* / bd50825 (7-count-tasks-per-category) 7-count-tasks-per-category
+|/
+* d6006aa (origin/7-count-tasks-per-category) Add starter code
+* 41ee7f4 Initial commit
+
+

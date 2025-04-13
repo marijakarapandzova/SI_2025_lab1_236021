@@ -1,0 +1,15 @@
+*   61abd06 Merge branch 'master' of https://github.com/marijakarapandzova/SI_2025_lab1_236021
+|\  
+| *   b30f9c2 Merge pull request #11 from marijakarapandzova/5-filter-tasks-by-category
+| |\  
+| | * e1118e8 5-filter-tasks-by-category
+| * |   d5210e8 Merge pull request #10 from marijakarapandzova/2-find-all-completed-tasks
+| |\ \  
+| | |/  
+| |/|   
+| | * abe1859 2-find-all-completed-tasks
+| |/  
+* / bd50825 7-count-tasks-per-category
+|/  
+* d6006aa Add starter code
+* 41ee7f4 Initial commit
